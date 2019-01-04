@@ -1,0 +1,46 @@
+{
+  "name": "muncak",
+  "version": "1.0.0",
+  "description": "Muncak landing page",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Errec/muncak.git"
+  },
+  "keywords": [
+    "lading",
+    "page",
+    "pug",
+    "sass"
+  ],
+  "author": "Raniro Coelho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Errec/muncak/issues"
+  },
+  "homepage": "https://github.com/Errec/muncak#readme",
+  "dependencies": {
+    "beeper": "^1.1.1",
+    "browser-sync": "^2.26.3",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-cache": "^1.0.2",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "gulp-util": "^3.0.8",
+    "install": "^0.12.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
