@@ -1,0 +1,35 @@
+.actions__card {
+  position: relative;
+  text-align: left;
+  background-color: $muncak-white;
+  width: 360px;
+  height: 270px;
+  padding: 32px 64px;
+  margin-bottom: 32px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 90px -12px rgba($muncak-blue,0.2);
+  h2 {
+    font-size: 1.7rem;
+    margin-bottom: 32px;
+    color: $muncak-grey;
+  }
+  p {
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 1.5;
+    color: $muncak-grey;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    right: 0;
+    top: -40%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+
+    background-size: cover;
+    background-image: url("../img/header.png");
+  }
+}
