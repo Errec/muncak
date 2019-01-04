@@ -1,0 +1,21 @@
+.hero__wrapper {
+  margin-top: 64px;
+  margin-left: 64px;
+  width: 400px;
+}
+.hero__text-box {
+  margin-bottom: 128px;
+}
+.hero__title {
+  font-size: 3.2rem;
+  line-height: 1;
+  font-weight: bold;
+  color: $muncak-dark-blue;
+}
+.hero__text {
+  font-size: 1.25rem;
+  text-align: justify;
+  line-height: 1.8;
+  color: $muncak-text-color;
+}
+// .hero__button

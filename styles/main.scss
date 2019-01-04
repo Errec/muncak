@@ -2,7 +2,10 @@
 @import 'base/reset.scss';
 @import 'variables/colors.scss';
 
+@import 'components/MuncakBtn.scss';
+
 @import 'modules/Header.scss';
+@import 'modules/Hero.scss';
 
 body {
   background-color: $muncak-white;
