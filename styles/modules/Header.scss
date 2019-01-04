@@ -1,0 +1,53 @@
+.header__wrapper {
+  background-color: $muncak-dark-blue;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  flex: 1;
+}
+
+.header__list {
+  list-style: none;
+  display: flex;
+  flex-direction: row
+}
+.header__list-item {
+  margin: 0 18px;
+  color: $muncak-white;
+  cursor: pointer;
+  font-weight: bold;
+}
+.header__link {
+  transition: all 0.3s;
+  position: relative;
+  &:after {
+    content: "";
+    left: -10%;
+    right: 0;
+    bottom: -60%;
+    position: absolute;
+    width: 120%;
+    height: 1px;
+    background-color: $muncak-white;
+    display: none;
+  }
+  &:hover {
+    &:after {
+      display: block;
+    }
+  }
+}
+.header__login {
+  background-color: $muncak-white;
+  padding: 9px 34px;
+  border-radius: 10px;
+  color:$muncak-dark-blue;
+  font-weight: bold;
+  &:hover {
+    color: lighten($muncak-dark-blue, 30%);
+    background-color: white;
+  }
+  transition: all 0.2s;
+}
