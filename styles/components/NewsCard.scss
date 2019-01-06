@@ -18,16 +18,20 @@
   padding: 12px 32px;
 }
 
+/*
+Use front-end or back-end JS here for text better presentation 
+with max number of characters and ellipses
+*/
 .news-card__title-box {
   overflow: hidden;
   height: 150px;
+  text-transform: capitalize;
 }
 
 .news-card__title {
   color: $muncak-grey;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   line-height: 1.2;
-  text-overflow: ellipsis;
 }
 
 /*
@@ -45,9 +49,10 @@ with max number of characters and ellipses
 }
 
 .news-card__more {
-  position: relative;
   color: $muncak-blue;
+  cursor: pointer;
   font-size: 1.2rem;
   font-weight: bold;
+  position: relative;
   top: 12px;
 }
