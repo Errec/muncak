@@ -1,6 +1,14 @@
 .actions__wrapper {
+  padding-top: 500px;
   text-align: center;
+
 }
-// .actions__title
-// .actions__box
-// .actions__button
+.actions__box {
+  margin-top: 200px;
+  position: relative;
+}
+.actions__button {
+  position: absolute;
+  bottom: 150px;
+  right: 100px;
+}

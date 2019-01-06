@@ -1,8 +1,17 @@
 .actions__card {
   position: relative;
   text-align: left;
-  background-color: $muncak-white;
+  width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  &:nth-child(even) {
+    justify-content: flex-end;
+  }
+}
+.actions__card-wrapper {
+  position: relative;
   width: 360px;
+  background: $muncak-white;
   height: 270px;
   padding: 32px 64px;
   margin-bottom: 32px;
@@ -18,6 +27,7 @@
     text-align: justify;
     line-height: 1.5;
     color: $muncak-grey;
+    font-weight: 100
   }
   &:after {
     content: "";
