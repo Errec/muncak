@@ -1,19 +1,21 @@
-@import 'base/normalize.scss';
-@import 'base/reset.scss';
-@import 'variables/colors.scss';
+@import 'base/normalize';
+@import 'base/reset';
+@import 'variables/colors';
 
-@import 'components/MuncakBtn.scss';
-@import 'components/MuncakTitles.scss';
-@import 'components/ActionCard.scss';
-@import 'components/NumberCard.scss';
-@import 'components/NewsCard.scss';
+@import 'components/MuncakBtn';
+@import 'components/MuncakTitles';
+@import 'components/ActionCard';
+@import 'components/NumberCard';
+@import 'components/NewsCard';
+@import 'components/LinkCard';
 
-@import 'modules/Header.scss';
-@import 'modules/Hero.scss';
-@import 'modules/Actions.scss';
-@import 'modules/Numbers.scss';
-@import 'modules/News.scss';
-@import 'modules/Subscribe.scss';
+@import 'modules/Header';
+@import 'modules/Hero';
+@import 'modules/Actions';
+@import 'modules/Numbers';
+@import 'modules/News';
+@import 'modules/Subscribe';
+@import 'modules/Links';
 
 body {
   background-color: $muncak-white;

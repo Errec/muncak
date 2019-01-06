@@ -33,7 +33,7 @@
 }
 .subscribe__input[type="submit"] {
   background-color: $muncak-bright-blue;
-  margin: 64px auto 100px auto;
+  margin: 64px auto 80px auto;
   &:hover {
     background-color: lighten($muncak-bright-blue, 10%);
   }

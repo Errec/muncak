@@ -1,0 +1,27 @@
+.link-card {
+  max-width: 250px;
+  background-color: $muncak-blue
+}
+
+.link-card__title {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 100;
+  color: $muncak-white;
+}
+
+.link-card__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link-card__list-item {
+  margin-bottom: 24px;
+}
+
+.link-card__text {
+  color: $muncak-white;
+  cursor: pointer;
+  line-height: 1.6;
+}

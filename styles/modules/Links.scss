@@ -1,0 +1,13 @@
+.links__wrapper {
+  margin-top: 80px;
+}
+.links__cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  * {
+    flex: 1;
+  }
+}
+
