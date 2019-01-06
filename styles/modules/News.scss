@@ -1,0 +1,20 @@
+.news__wrapper {
+  padding-top: 150px;
+}
+.news__title-wrapper {
+  margin-bottom: 100px;
+  text-align: center;
+  h2 {
+    text-transform: capitalize;
+  }
+}
+.news__cards {
+  padding: 0 64px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  * {
+    flex: 1;
+  }
+}

@@ -4,12 +4,13 @@
 
 .number-card__text {
   text-transform: capitalize;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   color: $muncak-grey;
+  margin: 0;
 }
 
 .number-card__values {
   color: darken($muncak-blue, 10%);
   font-size: 2.6rem;
-  margin: 0
+  margin: 6px 0;
 }
