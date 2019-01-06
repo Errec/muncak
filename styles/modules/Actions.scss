@@ -1,9 +1,13 @@
 .actions__wrapper {
   padding-top: 500px;
   text-align: center;
-
 }
-.actions__box {
+.actions__title-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.actions__cards {
   margin-top: 200px;
   position: relative;
 }

@@ -1,0 +1,15 @@
+.numbers__card {
+  max-width: 350px;
+}
+
+.numbers__card-text {
+  text-transform: capitalize;
+  font-size: 1.6rem;
+  color: $muncak-grey;
+}
+
+.numbers__card-values {
+  color: darken($muncak-blue, 10%);
+  font-size: 2.6rem;
+  margin: 0
+}
