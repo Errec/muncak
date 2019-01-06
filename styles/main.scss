@@ -6,11 +6,13 @@
 @import 'components/MuncakTitles.scss';
 @import 'components/ActionCard.scss';
 @import 'components/NumberCard.scss';
+@import 'components/NewsCard.scss';
 
 @import 'modules/Header.scss';
 @import 'modules/Hero.scss';
 @import 'modules/Actions.scss';
 @import 'modules/Numbers.scss';
+@import 'modules/News.scss';
 
 body {
   background-color: $muncak-white;

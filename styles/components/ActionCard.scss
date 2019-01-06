@@ -1,4 +1,4 @@
-.actions__card {
+.action-card {
   position: relative;
   text-align: left;
   width: 100%;
@@ -8,7 +8,7 @@
     justify-content: flex-end;
   }
 }
-.actions__card-wrapper {
+.action-card__wrapper {
   position: relative;
   width: 360px;
   background: $muncak-white;
@@ -19,7 +19,7 @@
   box-shadow: 0px 0px 90px -12px rgba($muncak-blue,0.2);
 }
 
-.actions__card-text-box {
+.action-card__text-box {
   h2 {
     font-size: 1.7rem;
     margin-bottom: 32px;
