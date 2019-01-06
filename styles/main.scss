@@ -1,6 +1,7 @@
 @import 'base/normalize';
 @import 'base/reset';
 @import 'variables/colors';
+@import 'variables/media';
 
 @import 'components/MuncakBtn';
 @import 'components/MuncakTitles';
@@ -16,8 +17,16 @@
 @import 'modules/News';
 @import 'modules/Subscribe';
 @import 'modules/Links';
+@import 'modules/Social';
+
 
 body {
-  background-color: $muncak-white;
+  margin: 0 auto;
   padding: 48px 124px;
+  max-width: $break-xlarge;
+  background-color: $muncak-white;
 }
+
+@import 'media/Xlarge';
+@import 'media/Large';
+@import 'media/Medium';

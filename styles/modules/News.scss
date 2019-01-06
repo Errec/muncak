@@ -9,11 +9,11 @@
   }
 }
 .news__cards {
-  padding: 0 64px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   * {
     flex: 1;
   }
