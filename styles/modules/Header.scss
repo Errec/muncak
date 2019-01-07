@@ -1,11 +1,32 @@
 .header__wrapper {
-  background-color: $muncak-dark-blue;
   display: flex;
   align-items: center;
 }
 
 .header__logo {
   flex: 1;
+}
+
+.header__logo-img {
+  width: 160px;
+  height: auto;
+}
+
+.header__navbar {
+  z-index: 10;
+  &:after {
+    content: "";
+    position: absolute;
+    width: 1000px;
+    height: auto;
+    background-image: url('../img/header.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 0;
+    bottom: 0;
+    right: -124px;
+    z-index: -1;
+  }
 }
 
 .header__list {
@@ -32,6 +53,7 @@
     height: 1px;
     background-color: $muncak-white;
     display: none;
+    z-index: 10
   }
   &:hover {
     &:after {
