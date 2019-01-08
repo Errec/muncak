@@ -1,4 +1,8 @@
 @media screen and (max-width: $break-xsmall) {
+  .header__logo-img {
+    margin-bottom: 150px;
+    width: 80px;
+  }
   .muncak-titles {
     font-size: 1.5rem;
     line-height: 1.2
@@ -8,7 +12,8 @@
   }
   .header__list-item {
     text-align: right;
-    margin: 0 12px 8px 0;
+    margin: 12px 12px 8px 0;
+    font-size: 1.3rem;
   }
   .header__link {
     &:hover {
@@ -30,7 +35,13 @@
     }
     transition: all 0.2s;
   }
-
+  .header__navbar:after {
+      width: 270px;
+      right: 0px;
+    }
+  .hero {
+    margin-top: 20px;
+  }
   .hero__wrapper {
     margin: 32px 0 0 0;
     width: 100%;
@@ -38,6 +49,9 @@
   .hero__title {
     margin: 12px 0;
     font-size: 2.8rem;
+  }
+  .hero__text {
+    font-size: 1rem;
   }
   .hero__text-box {
     margin-bottom: 48px;

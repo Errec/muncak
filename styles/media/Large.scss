@@ -2,17 +2,35 @@
   body {
     padding: 24px 36px;
   }
-  .action-card__text-box {
+
+  .header__navbar:after {
+      width: 720px;
+    }
+
+  .hero {
     &:after {
-      transform: translateX(0);
-      top: 8px;
-      right: 10px;
+      height: calc(670px / 1.5);
+      width: calc(180px / 1.5);
+      left: 0;
+      top: 260px;
     }
   }
-  .actions__button {
-    position: inherit;
-    top: 24px;
-    right: 0;
+  .hero__column {
+    max-width: 550px;
+  }
+  .hero__title {
+    margin: 12px 0;
+    font-size: 2.4rem;
+  }
+
+  .actions__wrapper {
+    padding-top: 170px;
+  }
+
+  .action-card__text-box {
+    &:after {
+      transform: translateX(100%);
+    }
   }
 
   .subscribe__wrapper {

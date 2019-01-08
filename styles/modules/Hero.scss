@@ -1,14 +1,36 @@
+.hero {
+  &:after {
+    content: "";
+    position: absolute;
+    height: 670px;
+    width: 180px;
+    z-index: -1;
+    background-image: url("../img/bg-shape01.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 0;
+    top: 260px;
+  }
+  display: flex;
+  justify-content: flex-end;
+}
 .hero__wrapper {
+  position: relative;
   margin-top: 64px;
-  margin-left: 64px;
-  width: 400px;
+  max-width: 400px;
+  flex: 8;
+}
+.hero__column {
+  flex: 2;
+  max-width: 800px;
+  height: 100px;
 }
 .hero__text-box {
   margin-bottom: 128px;
 }
 .hero__title {
   font-size: 3.2rem;
-  line-height: 1;
+  line-height: 1.2;
   font-weight: bold;
   color: $muncak-dark-blue;
 }

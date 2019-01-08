@@ -1,4 +1,10 @@
 @media screen and (max-width: $break-small) {
+  .header__logo-img {
+      width: 100px;
+  }
+  .hero {
+    margin-top: 400px;
+  }
   .actions__wrapper {
     padding-top: 150px;
   }

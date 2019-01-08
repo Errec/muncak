@@ -9,23 +9,47 @@
   body {
     padding: 8px 16px;
   }
+  .hero__wrapper {
+    max-width: 300px;
+  }
+
+  .header__navbar:after {
+      width: 635px;
+  }
+  .hero {
+    &:after {
+      display: none;
+    }
+  }
+
+  .hero__title {
+    font-size: 2rem;
+  }
+
+  .hero__text-box {
+    margin-bottom: 60px;
+  }
+  .hero__text {
+    font-size: 1rem;
+  }
+
   .actions__wrapper {
     padding-top: 250px;
   }
-  .numbers__cards {
-    padding: 0;
-  }
-  .actions__cards {
-    margin-top: 32px;
-  }
-  .number-card {
-    p {
-      font-size: 1.2rem;
-    }
-    h2 {
-      font-size: 2rem;
+
+  .action-card__text-box {
+    &:after {
+      transform: translateX(0);
+      top: 8px;
+      right: 10px;
     }
   }
+  .actions__button {
+    position: inherit;
+    top: 24px;
+    right: 0;
+  }
+
   .news__wrapper {
     padding-top: 100px;
   }
