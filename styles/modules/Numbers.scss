@@ -1,6 +1,7 @@
 .numbers__wrapper {
   padding-top: 140px;
   text-align: center;
+  position: relative;
 }
 
 .numbers__title-wrapper {
@@ -11,6 +12,22 @@
 .numbers__title {
   marker-bottom: 100px;
   margin-bottom: 50px;
+}
+
+.numbers__circle1 {
+  position: absolute;
+  border-radius: 50%;
+  user-select: none;
+  pointer-events: none;
+}
+
+.numbers__circle1 {
+  background-color: $muncak-pink;
+  z-index: -10;
+  height: 150px;
+  width: 150px;
+  left: -80px;
+  top: 500px;
 }
 
 .numbers__cards {

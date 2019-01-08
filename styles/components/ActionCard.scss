@@ -10,10 +10,9 @@
 }
 .action-card__wrapper {
   position: relative;
-  width: 360px;
+  width: 460px;
   background: $muncak-white;
-  height: 270px;
-  padding: 32px 64px;
+  padding: 54px 64px;
   margin-bottom: 32px;
   border-radius: 20px;
   box-shadow: 0px 0px 90px -12px rgba($muncak-blue,0.2);
@@ -28,7 +27,7 @@
   p {
     font-size: 1.2rem;
     text-align: justify;
-    line-height: 1.5;
+    line-height: 2.2;
     color: $muncak-grey;
     font-weight: 100
   }

@@ -4,13 +4,13 @@
   max-width: 350px;
   height: 680px;
   border-radius: 18px;
-  overflow: hidden;
   box-shadow: 0px 0px 80px -10px rgba($muncak-blue, 0.4);
 }
 
 .news-card__img {
   height: 225px;
-  background-image: url("../img/card01.png");
+  border-radius: 18px 18px 0 0;
+  background-image: url("../img/pic-news01.png");
   background-repeat: no-repeat;
   background-size: cover;
 }

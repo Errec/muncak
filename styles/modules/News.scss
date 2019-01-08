@@ -11,6 +11,7 @@
     background-repeat: no-repeat;
     left: -128px;
     top: 354px;
+    pointer-events: none
   }
 }
 
@@ -25,6 +26,7 @@
   }
 }
 .news__cards {
+  position: relative;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -32,5 +34,22 @@
   justify-content: center;
   * {
     flex: 1;
+  }
+
+  .news__circle1{
+    position: absolute;
+    border-radius: 50%;
+    user-select: none;
+    pointer-events: none;
+  }
+
+  .news__circle1 {
+    opacity: 0.2;
+    background-color: $muncak-bright-blue;
+    z-index: 1000;
+    height: 120px;
+    width: 120px;
+    right: -265px;
+    top: -40px;
   }
 }
