@@ -34,12 +34,28 @@
   &:after {
     content: "";
     position: absolute;
-    top: -40%;
+    top: -45%;
     transform: translateX(-50%);
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
 
-    background-size: cover;
-    background-image: url("../img/header.png");
+.action-card__text-box--avocate {
+  &:after {
+    background-image: url("../img/icon-speaker.png");
+  }
+}
+.action-card__text-box--volunteer {
+  &:after {
+    background-image: url("../img/icon-hand.png");
+  }
+}
+.action-card__text-box--explore {
+  &:after {
+    background-image: url("../img/icon-mountain.png");
   }
 }
