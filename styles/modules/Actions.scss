@@ -1,3 +1,18 @@
+.actions {
+  position: relative;
+  &:after {
+    content: "";
+    position: absolute;
+    height: 670px;
+    width: 180px;
+    z-index: -1;
+    background-image: url("../img/bg-shape02.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: -135px;
+    top: 1260px;
+  }
+}
 .actions__wrapper {
   max-width: 1000px;
   padding-top: 500px;

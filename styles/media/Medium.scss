@@ -21,6 +21,11 @@
       display: none;
     }
   }
+  .actions {
+    &:after {
+      display: none;
+    }
+  }
 
   .hero__title {
     font-size: 2rem;
