@@ -1,3 +1,15 @@
 .muncak-circle {
-  
+  animation: fade-circle 5s infinite ease-in-out,
+  resize-circle 5s infinite ease-in-out;
+}
+
+@keyframes fade-circle {
+  0%   { opacity: 0.5; }
+  50% { opacity: 0.93; }
+  100% { opacity: 0.5; }
+}
+@keyframes resize-circle {
+  0%   {transform: scale(1, 1);}
+  50% { transform: scale(0.9, 0.9);}
+  100% { transform: scale(1, 1);}
 }
