@@ -3,18 +3,22 @@
     margin-bottom: 150px;
     width: 80px;
   }
+
   .muncak-titles {
     font-size: 1.5rem;
-    line-height: 1.2
+    line-height: 1.2;
   }
+
   .header__list {
     flex-direction: column;
   }
+
   .header__list-item {
-    text-align: right;
-    margin: 12px 12px 8px 0;
     font-size: 1.3rem;
+    margin: 12px 12px 8px 0;
+    text-align: right;
   }
+
   .header__link {
     &:hover {
       &:after {
@@ -22,47 +26,55 @@
       }
     }
   }
+
   .header__login {
     background-color: transparent;
-    border: solid $muncak-white 1px;
-    padding: 4px 6px;
     border-radius: 0;
+    border: solid $muncak-white 1px;
     color:$muncak-white;
     font-weight: bold;
+    padding: 4px 6px;
     &:hover {
-      color: $muncak-dark-blue;
       background-color: transparent;
+      color: $muncak-dark-blue;
     }
     transition: all 0.2s;
   }
+
   .header__navbar:after {
-      width: 270px;
       right: 0px;
+      width: 270px;
     }
+
   .hero {
     margin-top: 20px;
   }
+
   .hero__wrapper {
     margin: 32px 0 0 0;
     width: 100%;
   }
+
   .hero__title {
-    margin: 12px 0;
     font-size: 2.8rem;
+    margin: 12px 0;
   }
+
   .hero__text {
     font-size: 1rem;
   }
+
   .hero__text-box {
     margin-bottom: 48px;
   }
+
   .actions__wrapper {
     padding-top: 70px;
   }
 
   .action-card__wrapper {
-    padding: 32px 16px 8px 16px;
     height: 240px;
+    padding: 32px 16px 8px 16px;
     h2 {
       font-size: 1.4rem;
     }
@@ -70,15 +82,19 @@
       font-size: 1rem;
     }
   }
+
   .numbers__wrapper {
     padding-top: 100px;
   }
+
   .subscribe__title {
     font-size: 1rem;
   }
+
   .links__cards {
     flex-direction: column;
   }
+
   .link-card {
     h3 {
       font-size: 1rem;
@@ -87,9 +103,11 @@
       font-size: 0.9rem;
     }
   }
+
   .social__wrapper {
     margin: 12px 0;
   }
+
   .social__list-item {
     height: 32px;
   }

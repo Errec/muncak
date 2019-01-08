@@ -1,82 +1,77 @@
 .hero {
   &:after {
+    background-image: url("../img/bg-shape01.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
     content: "";
-    position: absolute;
     height: 670px;
+    left: 0;
+    pointer-events: none
+    position: absolute;
+    top: 260px;
     width: 180px;
     z-index: -1;
-    background-image: url("../img/bg-shape01.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    left: 0;
-    top: 260px;
-    pointer-events: none
   }
   display: flex;
   justify-content: flex-end;
 }
+
 .hero__wrapper {
-  position: relative;
+  flex: 8;
   margin-top: 64px;
   max-width: 400px;
-  flex: 8;
+  position: relative;
 }
+
 .hero__column {
   flex: 2;
-  max-width: 800px;
   height: 100px;
+  max-width: 800px;
 }
+
 .hero__text-box {
   margin-bottom: 128px;
 }
+
 .hero__title {
-  font-size: 3.2rem;
-  line-height: 1.2;
-  font-weight: bold;
   color: $muncak-dark-blue;
-}
-.hero__text {
-  font-size: 1.25rem;
-  text-align: justify;
-  line-height: 1.8;
-  color: $muncak-text-color;
+  font-size: 3.2rem;
+  font-weight: bold;
+  line-height: 1.2;
 }
 
-.hero__circle1,
-.hero__circle2,
-.hero__circle3 {
-  position: absolute;
-  border-radius: 50%;
-  user-select: none;
-  pointer-events: none;
+.hero__text {
+  color: $muncak-text-color;
+  font-size: 1.25rem;
+  line-height: 1.8;
+  text-align: justify;
 }
 
 .hero__circle1 {
   background-color: $muncak-pink;
-  z-index: -1000000;
   height: 85px;
-  width: 85px;
   left: 40px;
   top: 300px;
+  width: 85px;
+  z-index: -1000000;
 }
+
 .hero__circle2 {
-  opacity: 0.35;
   background-color: $muncak-bright-blue;
-  z-index: 10000000;
   height: 70px;
-  width: 70px;
+  opacity: 0.35;
   right: 786px;
   top: 360px;
-}
-.hero__circle3 {
-  opacity: 0.80;
-  background-color: $muncak-pink;
+  width: 70px;
   z-index: 10000000;
+}
+
+.hero__circle3 {
+  background-color: $muncak-pink;
   height: 100px;
-  width: 100px;
+  opacity: 0.80;
   right: 38px;
   top: 700px;
+  width: 100px;
+  z-index: 10000000;
 }
-
-
-// .hero__button

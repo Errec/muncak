@@ -1,6 +1,10 @@
 .muncak-circle {
   animation: fade-circle 5s infinite ease-in-out,
+  border-radius: 50%;
+  pointer-events: none;
+  position: absolute;
   resize-circle 5s infinite ease-in-out;
+  user-select: none;
 }
 
 @keyframes fade-circle {

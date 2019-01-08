@@ -10,9 +10,9 @@
   .hero {
     &:after {
       height: calc(670px / 1.5);
-      width: calc(180px / 1.5);
       left: 0;
       top: 260px;
+      width: calc(180px / 1.5);
     }
   }
 
@@ -44,8 +44,8 @@
   }
 
   .subscribe__wrapper {
-    padding: 12px 100px;
     margin-top: 150px;
+    padding: 12px 100px;
   }
 
   .subscribe__title-wrapper {
@@ -57,12 +57,12 @@
 
   .subscribe__input[type="text"],
   .subscribe__input[type="email"] {
-    width: 90%;
+    border-radius: 12px;
+    font-size: 1.2rem;
     height: 42px;
     margin-bottom: 20px;
-    border-radius: 12px;
     padding-left: 16px;
-    font-size: 1.2rem;
+    width: 90%;
   }
 
   .subscribe__input[type="submit"] {

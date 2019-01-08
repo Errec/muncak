@@ -1,6 +1,6 @@
 .header__wrapper {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .header__logo {
@@ -8,53 +8,53 @@
 }
 
 .header__logo-img {
-  width: 160px;
   height: auto;
+  width: 160px;
 }
 
 .header__navbar {
   z-index: 10;
   &:after {
-    content: "";
-    position: absolute;
-    height: 780px;
-    width: 1000px;
     background-image: url('../img/header.png');
-    background-size: contain;
     background-repeat: no-repeat;
-    top: 0;
+    background-size: contain;
     bottom: 0;
-    right: -153px;
-    z-index: -1;
+    content: "";
+    height: 780px;
     pointer-events: none;
+    position: absolute;
+    right: -153px;
+    top: 0;
+    width: 1000px;
+    z-index: -1;
   }
 }
 
 .header__list {
-  list-style: none;
   display: flex;
-  flex-direction: row
+  flex-direction: row;
+  list-style: none;
 }
 .header__list-item {
-  margin: 0 18px;
   color: $muncak-white;
   cursor: pointer;
   font-weight: bold;
+  margin: 0 18px;
 }
 .header__link {
-  transition: all 0.3s;
   position: relative;
+  transition: all 0.3s;
   &:after {
-    content: "";
-    left: -10%;
-    right: 0;
-    bottom: -120%;
-    position: absolute;
-    width: 120%;
-    height: 1px;
     background-color: $muncak-white;
+    bottom: -120%;
+    content: "";
     display: none;
-    z-index: 10
+    height: 1px;
+    left: -10%;
+    position: absolute;
+    right: 0;
+    width: 120%;
+    z-index: 10;
   }
   &:hover {
     &:after {
@@ -64,13 +64,13 @@
 }
 .header__login {
   background-color: $muncak-white;
-  padding: 9px 34px;
   border-radius: 10px;
   color:$muncak-dark-blue;
   font-weight: bold;
+  padding: 9px 34px;
   &:hover {
-    color: lighten($muncak-dark-blue, 30%);
     background-color: white;
+    color: lighten($muncak-dark-blue, 30%);
   }
   transition: all 0.2s;
 }

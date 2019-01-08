@@ -3,6 +3,7 @@
   .muncak-circle {
     display: none;
   }
+
   .muncak-titles {
     font-size: 1.8rem
   }
@@ -34,6 +35,7 @@
     &:before {
       display: none;
     }
+    
     &:after {
       display: none;
     }
@@ -63,16 +65,16 @@
 
   .action-card__text-box {
     &:after {
-      transform: translateX(0);
-      top: 8px;
       right: 10px;
+      top: 8px;
+      transform: translateX(0);
     }
   }
 
   .actions__button {
     position: inherit;
-    top: 24px;
     right: 0;
+    top: 24px;
   }
 
   .news__wrapper {
@@ -84,8 +86,8 @@
   }
 
   .news-card {
-    margin: 0 4px;
     height: 560px;
+    margin: 0 4px;
   }
 
   .news-card__text-box {
