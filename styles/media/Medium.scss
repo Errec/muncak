@@ -1,14 +1,18 @@
 @media screen and (max-width: $break-medium) {
+
   .muncak-titles {
     font-size: 1.8rem
   }
+
   .muncak-btn {
     padding: 18px 48px;
     font-size: 1.2rem;
   }
+
   body {
     padding: 8px 16px;
   }
+
   .hero__wrapper {
     max-width: 300px;
   }
@@ -16,12 +20,20 @@
   .header__navbar:after {
       width: 635px;
   }
+
   .hero {
     &:after {
       display: none;
     }
   }
+
   .actions {
+    &:after {
+      display: none;
+    }
+  }
+
+  .news {
     &:after {
       display: none;
     }
@@ -34,6 +46,7 @@
   .hero__text-box {
     margin-bottom: 60px;
   }
+
   .hero__text {
     font-size: 1rem;
   }
@@ -49,6 +62,7 @@
       right: 10px;
     }
   }
+
   .actions__button {
     position: inherit;
     top: 24px;
@@ -58,36 +72,50 @@
   .news__wrapper {
     padding-top: 100px;
   }
+
   .news__title-wrapper {
     margin-bottom: 50px;
   }
+
   .news-card {
     margin: 0 4px;
     height: 560px;
   }
+
   .news-card__text-box {
     padding: 6px 16px;
   }
+
   .news-card__title-box {
     height: 90px;
   }
+
   .news-card__title {
     font-size: 1.2rem;
   }
+
   .news-card__description-box {
     height: 172px;
   }
+
   .news-card__description {
     font-size: 1rem;
-
   }
+
   .links__wrapper {
     margin-top: 40px;
   }
+
   .link-card__title {
     font-size: 0.9rem;
   }
+
   .link-card__text {
     font-size: 0.85rem;
   }
+
+  .footer-bg {
+    height: 780px;
+  }
+
 }

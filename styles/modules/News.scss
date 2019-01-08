@@ -1,3 +1,19 @@
+.news {
+  position: relative;
+  &:after {
+    content: "";
+    position: absolute;
+    height: 670px;
+    width: 180px;
+    z-index: -1;
+    background-image: url("../img/bg-shape03.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: -128px;
+    top: 354px;
+  }
+}
+
 .news__wrapper {
   padding-top: 150px;
 }
