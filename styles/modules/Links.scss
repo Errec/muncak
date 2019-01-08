@@ -1,3 +1,22 @@
+.footer {
+  position: relative;
+  z-index: 1000;
+}
+.footer__bg {
+  user-select: none;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 1100px;
+  background-image: url("../img/bg-links.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
 .links__wrapper {
   margin-top: 80px;
 }
