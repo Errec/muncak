@@ -14,12 +14,21 @@
   .numbers__cards {
     align-items: center;
     flex-direction: column;
+    padding: 0 12px;
   }
 
   .number-card {
     box-shadow: 0px 0px 40px -5px rgba($muncak-blue, 0.2);
     margin-bottom: 24px;
     padding: 24px 64px;
+    padding: 24px 0;
+    width: 100%;
+    p {
+      font-size: 1.1rem;
+    }
+    h2 {
+      font-size: 2rem;
+    }
   }
 
   .news__wrapper {

@@ -65,9 +65,12 @@
 
   .action-card__text-box {
     &:after {
-      right: 10px;
-      top: 8px;
+      height: 30px;
+      right: 12px;
+      top: 10px;
       transform: translateX(0);
+      width: 50px;
+      height: 50px;
     }
   }
 
