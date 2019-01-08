@@ -12,6 +12,18 @@
     right: -135px;
     top: 1260px;
   }
+  &:before {
+    content: "";
+    position: absolute;
+    height: 130%;
+    width: 110%;
+    z-index: -10;
+    background-image: url("../img/bg-shape04.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 325px;
+    left: -480px;
+  }
 }
 .actions__wrapper {
   max-width: 1000px;
