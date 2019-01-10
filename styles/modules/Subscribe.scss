@@ -1,0 +1,62 @@
+.subscribe__wrapper {
+  background-image: url("../img/bg-form.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  margin-top: 200px;
+  max-width: 1800px;
+  padding: 32px 240px;
+  position: relative;
+  text-align: center;
+  z-index: 1000;
+}
+
+.subscribe__input {
+  border: none;
+  display: block;
+  margin: 0 auto;
+}
+
+.subscribe__title-wrapper {
+  color: $muncak-white;
+  font-size: 1.6rem;
+  line-height: 1.2;
+  margin: 40px 0 74px 0;
+}
+
+.subscribe__input[type="text"],
+.subscribe__input[type="email"] {
+  background-color: $muncak-white;
+  border-radius: 18px;
+  font-size: 1.7rem;
+  height: 64px;
+  margin-bottom: 44px;
+  max-width: 580px;
+  padding-left: 32px;
+  width: 90%;
+}
+
+.subscribe__input[type="submit"] {
+  background-color: $muncak-bright-blue;
+  margin: 64px auto 80px auto;
+  &:hover {
+    background-color: lighten($muncak-bright-blue, 10%);
+  }
+}
+
+.subscribe__circle1{
+  border-radius: 50%;
+  pointer-events: none;
+  position: absolute;
+  user-select: none;
+}
+
+.subscribe__circle1 {
+  background-color: $muncak-pink;
+  height: 120px;
+  opacity: 0.7;
+  right: -70px;
+  top: 55%;
+  width: 120px;
+  z-index: 100000000;
+}

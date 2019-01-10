@@ -1,0 +1,8 @@
+@media only screen and (min-width: $break-large + 1) and (max-width: $break-xlarge) {
+  .action-card__text-box {
+    &:after {
+      left: 50%;
+    }
+  }
+}
+

@@ -1,0 +1,72 @@
+.actions {
+  position: relative;
+
+  &:after {
+    background-image: url("../img/bg-shape02.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    height: 670px;
+    position: absolute;
+    right: -135px;
+    top: 1260px;
+    width: 180px;
+    z-index: -1;
+  }
+
+  &:before {
+    background-image: url("../img/bg-shape04.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    height: 130%;
+    left: -480px;
+    position: absolute;
+    top: 325px;
+    width: 110%;
+    z-index: -10;
+  }
+}
+
+.actions__wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-top: 500px;
+  text-align: center;
+}
+
+.actions__title-wrapper {
+  margin: 0 auto;
+  max-width: 820px;
+  text-align: center;
+}
+
+.actions__cards {
+  margin-top: 200px;
+  position: relative;
+}
+
+.actions__button {
+  bottom: 150px;
+  position: absolute;
+  right: 100px;
+}
+
+.actions__circle1 {
+  background-color: $muncak-pink;
+  height: 100px;
+  left: 510px;
+  top: 334px;
+  width: 100px;
+  z-index: -1;
+}
+
+.actions__circle2 {
+  background-color: $muncak-bright-blue;
+  height: 140px;
+  opacity: 0.35;
+  right: -201px;
+  top: 800px;
+  width: 140px;
+  z-index: 10000000;
+}

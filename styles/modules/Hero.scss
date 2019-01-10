@@ -1,0 +1,77 @@
+.hero {
+  &:after {
+    background-image: url("../img/bg-shape01.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    height: 670px;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 260px;
+    width: 180px;
+    z-index: -1;
+  }
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero__wrapper {
+  flex: 8;
+  margin-top: 64px;
+  max-width: 400px;
+  position: relative;
+}
+
+.hero__column {
+  flex: 2;
+  height: 100px;
+  max-width: 800px;
+}
+
+.hero__text-box {
+  margin-bottom: 128px;
+}
+
+.hero__title {
+  color: $muncak-dark-blue;
+  font-size: 3.2rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.hero__text {
+  color: $muncak-text-color;
+  font-size: 1.25rem;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.hero__circle1 {
+  background-color: $muncak-pink;
+  height: 85px;
+  left: 40px;
+  top: 300px;
+  width: 85px;
+  z-index: -1000000;
+}
+
+.hero__circle2 {
+  background-color: $muncak-bright-blue;
+  height: 70px;
+  opacity: 0.35;
+  right: 786px;
+  top: 360px;
+  width: 70px;
+  z-index: 10000000;
+}
+
+.hero__circle3 {
+  background-color: $muncak-pink;
+  height: 100px;
+  opacity: 0.80;
+  right: 38px;
+  top: 700px;
+  width: 100px;
+  z-index: 10000000;
+}

@@ -1,0 +1,50 @@
+.news {
+  position: relative;
+  &:after {
+    background-image: url("../img/bg-shape03.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    height: 670px;
+    left: -128px;
+    pointer-events: none;
+    position: absolute;
+    top: 354px;
+    width: 180px;
+    z-index: -1;
+  }
+}
+
+.news__wrapper {
+  padding-top: 150px;
+}
+
+.news__title-wrapper {
+  margin-bottom: 100px;
+  text-align: center;
+  h2 {
+    text-transform: capitalize;
+  }
+}
+
+.news__cards {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  * {
+    flex: 1;
+  }
+
+  .news__circle1 {
+    background-color: $muncak-bright-blue;
+    height: 120px;
+    opacity: 0.2;
+    right: -265px;
+    top: -40px;
+    width: 120px;
+    z-index: 1000;
+  }
+}

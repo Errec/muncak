@@ -1,0 +1,64 @@
+.action-card {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  text-align: left;
+  width: 100%;
+  &:nth-child(even) {
+    justify-content: flex-end;
+  }
+}
+
+.action-card__wrapper {
+  background: $muncak-white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 90px -12px rgba($muncak-blue,0.2);
+  margin-bottom: 32px;
+  padding: 54px 64px;
+  position: relative;
+  width: 460px;
+}
+
+.action-card__text-box {
+  h2 {
+    color: $muncak-grey;
+    font-size: 1.7rem;
+    margin-bottom: 32px;
+  }
+  p {
+    color: $muncak-grey;
+    font-size: 1.2rem;
+    font-weight: 100;
+    line-height: 2.2;
+    text-align: justify;
+  }
+  &:after {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    height: 130px;
+    position: absolute;
+    top: -45%;
+    transform: translateX(-50%);
+    width: 130px;
+  }
+}
+
+.action-card__text-box--avocate {
+  &:after {
+    background-image: url("../img/icon-speaker.png");
+  }
+}
+
+.action-card__text-box--volunteer {
+  &:after {
+    background-image: url("../img/icon-hand.png");
+  }
+}
+
+.action-card__text-box--explore {
+  &:after {
+    background-image: url("../img/icon-mountain.png");
+  }
+}

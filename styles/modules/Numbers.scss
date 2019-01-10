@@ -1,0 +1,35 @@
+.numbers__wrapper {
+  padding-top: 140px;
+  position: relative;
+  text-align: center;
+}
+
+.numbers__title-wrapper {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.numbers__title {
+  margin-bottom: 50px;
+  marker-bottom: 100px;
+}
+
+.numbers__circle1 {
+  background-color: $muncak-pink;
+  height: 150px;
+  left: -80px;
+  top: 500px;
+  width: 150px;
+  z-index: -10;
+}
+
+.numbers__cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 64px;
+  * {
+    flex: 1;
+  }
+}

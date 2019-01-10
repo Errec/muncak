@@ -1,6 +1,53 @@
-@import 'base/normalize.scss';
-@import 'base/reset.scss';
+@import 'base/normalize';
+@import 'base/reset';
+@import 'variables/colors';
+@import 'variables/media';
+
+@import 'components/MuncakBtn';
+@import 'components/MuncakTitles';
+@import 'components/ActionCard';
+@import 'components/NumberCard';
+@import 'components/NewsCard';
+@import 'components/LinkCard';
+@import 'components/MuncakCircle';
+
+@import 'modules/Header';
+@import 'modules/Hero';
+@import 'modules/Actions';
+@import 'modules/Numbers';
+@import 'modules/News';
+@import 'modules/Subscribe';
+@import 'modules/Links';
+@import 'modules/Social';
+
 
 body {
-  background-color: honeydew;
+  background-color: $muncak-white;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  max-width: $break-xlarge;
+  overflow-x: hidden;
+  padding: 48px 124px;
+  position: relative;
 }
+
+.footer-bg {
+  background-image: url("../img/bg-links.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0;
+  height: 1100px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  user-select: none;
+  width: 100%;
+  z-index: -1;
+}
+
+@import 'media/Xlarge';
+@import 'media/Large';
+@import 'media/Medium';
+@import 'media/Small';
+@import 'media/Xsmall';

@@ -1,0 +1,59 @@
+.news-card {
+  background-color: $muncak-white;
+  border-radius: 18px;
+  box-shadow: 0px 0px 80px -10px rgba($muncak-blue, 0.4);
+  height: 680px;
+  margin: 0 24px;
+  max-width: 350px;
+}
+
+.news-card__img {
+  background-image: url("../img/pic-news01.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 18px 18px 0 0;
+  height: 225px;
+}
+
+.news-card__text-box {
+  padding: 12px 32px;
+}
+
+/*
+Use front-end or back-end JS here for text better presentation 
+with max number of characters and ellipses
+*/
+.news-card__title-box {
+  height: 155px;
+  overflow: hidden;
+  text-transform: capitalize;
+}
+
+.news-card__title {
+  color: $muncak-grey;
+  font-size: 1.7rem;
+  line-height: 1.2;
+}
+
+/*
+Use front-end or back-end JS here for text better presentation 
+with max number of characters and ellipses
+*/
+.news-card__description-box {
+  height: 230px;
+  overflow: hidden;
+}
+
+.news-card__description {
+  color: $muncak-text-color;
+  font-size: 1.3rem;
+}
+
+.news-card__more {
+  color: $muncak-blue;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: relative;
+  top: 12px;
+}
